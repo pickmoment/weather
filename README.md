@@ -4,7 +4,13 @@ Open-Meteo와 Nominatim을 사용하는 날씨 CLI 도구.
 
 현재 날씨·대기질, 시간별·일별 예보를 터미널에서 조회하고, Claude Code / Codex용 스킬로 설치할 수 있습니다.
 
-## 빌드
+## 설치
+
+```bash
+go install github.com/pickmoment/weather@latest
+```
+
+또는 소스에서 직접 빌드:
 
 ```bash
 go build -o weather .
