@@ -1,0 +1,26 @@
+# Binaries
+weather
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build output
+*.o
+*.a
+*.out
+
+# Go workspace
+go.sum
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
